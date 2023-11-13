@@ -1,2 +1,13 @@
-<%= @answer %>
-<%= link_to "Ask a new question", ask_path %>
+<div class = "m-3 p-3 pb-1 border-tertiary border-start border-4">
+   <blockquote class="blockquote">
+    <%= @question %>
+    <footer class="blockquote-footer">You<cite title="Source Title"></cite></footer>
+  </blockquote>
+<blockquote class="blockquote">
+  <%= @answer %>
+    <footer class="blockquote-footer">Coach<cite title="Source Title"></cite></footer>
+</blockquote>
+  <%= link_to "Ask a new question", ask_path %>
+</div>
+
+
